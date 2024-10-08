@@ -1,22 +1,22 @@
 // Check if personalDetails is already defined
 if (typeof personalDetails === 'undefined') {
   var personalDetails = {
-    id: "209156819", 
-    firstName: "Tom",
-    lastName: "Biton",
-    fullName: "Tom Biton",
-    firstNameHebrew: "טום",
-    lastNameHebrew: "ביטון",
-    fullNameHebrew: "טום ביטון",
-    email: "tombiton2711@gmail.com",
-    phone: "0548146463",
-    street: "Moshe Sharet 12",
-    city: "Kiryat Atta",
-    country: "Israel",
-    postalCode: "2806546",
-    state: "Haifa",
-    linkedin: "https://www.linkedin.com/in/tom-biton",
-    github: "https://github.com/tombiton"
+    id: "---complete id---", 
+    firstName: "---complete first name---",
+    lastName: "---complete last name---",
+    fullName: "---complete full name---",
+    firstNameHebrew: "---complete hebrew first name---",
+    lastNameHebrew: "---complete hebrew last name---",
+    fullNameHebrew: "---complete hebrew full name---",
+    email: "---complete email---",
+    phone: "---complete phone number---",
+    street: "---complete address---",
+    city: "---complete city---",
+    country: "---complete country---",
+    postalCode: "---complete zip code---",
+    state: "---complete state---",
+    linkedin: "---complete linkedin url---",
+    github: "---complete github url---"
   };
 }
 
