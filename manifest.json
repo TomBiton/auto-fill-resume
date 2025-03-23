@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Resume Auto-filler",
+  "version": "1.0",
+  "permissions": [
+    "storage", 
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*/*"  
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"], 
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_icon": "icon.png"
+  }
+}
